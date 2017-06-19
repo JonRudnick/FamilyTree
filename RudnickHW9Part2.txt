@@ -1,0 +1,18 @@
+Author: Jonathan Rudnick
+Points: 2/2
+
+Cousin Test:
+1 ?- cousin(michael,michelle).
+false.
+
+2 ?- cousin(kent,Who).
+Who = michael ;
+Who = michelle ;
+false.
+
+Subset Test:
+3 ?- subset([1,7],[2,1,8,7,0]).
+true.
+
+4 ?- subset([3,7],[2,1,8,7,0]).
+false.
